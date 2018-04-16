@@ -1,0 +1,29 @@
+$(document).ready(function(){
+  $("#card1").click(function(){
+    //
+    $("#pic1").toggle();
+  });
+  $("#card2").click(function(){
+    $("#pic2").toggle();
+
+  });
+  $("#card3").click(function(){
+    $("#pic3").toggle();
+    //$(".paw").removeClass();
+  });
+  $("#card4").click(function(){
+    $("#pic4").toggle();
+  });
+  $("#card5").click(function(){
+    $("#pic5").toggle();
+  });
+  $("#card6").click(function(){
+    $("#pic6").toggle();
+  });
+  $("#card7").click(function(){
+    $("#pic7").toggle();
+  });
+  $("#card8").click(function(){
+    $("#pic8").toggle();
+  });
+});
